@@ -1,0 +1,146 @@
+@media(max-width:450px){
+
+    body{
+        width: fit-content;
+    }
+
+    header{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 20px;
+        gap: 50px;
+        padding-top: 10px;
+        object-fit: cover;
+    }
+    
+    header h1{
+        padding-top: 10px;
+        align-self: center;
+    }
+    
+    header span{
+        width: 90%;
+    }
+
+    header span input{
+        width: 90%;
+        margin-left: 5px;
+    }
+    
+    header span button{
+        width: 25%;
+    }
+    
+    main{
+        width: 100%;
+        min-height:calc(100vh - 100vh) ;
+    }
+    
+    main section nav{
+        padding: 10px 20px;
+        gap: 10px;
+    }
+    
+    main section nav a{
+        color: white;
+        font-size: 12px;
+        font-weight: 0;
+    }
+    
+    main .trend{
+        gap: 30px;
+        margin-top: 55px;
+    }
+    
+    main .trend article{
+        gap: 15px;
+    }
+    main .trend article img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    main .trend span{
+        gap: 15px;
+    }
+
+    main .trend span img{
+        width: 232px;
+        height: 232px;
+        object-fit: cover;
+    }
+    
+    
+    main #create-account form{
+        width: 100%;
+        height: 330px;
+        gap: 20px;
+        margin-bottom: 8px;
+    }
+    
+    main form div input{
+        width: 100%;
+    }
+    
+    main form span{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    main form span input{
+        width: 100%;
+    }
+    
+    
+    main form span button{
+        padding: 10px 20px;
+    }
+    
+    main .gallery{
+        gap: 30px;
+        margin-top: 50px;
+    }
+    
+    
+    main .gallery div{
+        gap: 15px;
+    }
+    
+    main .gallery div img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    main .gallery span{
+        gap: 15px;
+    }
+    
+    main .gallery span img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    main #contact-us{
+        height: 100px;
+        gap: 30px;
+        margin-top: 100px;
+    }
+
+    main #contact-us article{
+        position: absolute;
+        bottom: 0px;
+        gap: 10px;
+        transform: translateZ(-50px);
+    }
+    
+    main #contact-us > img{
+        width: 500px;
+    }
+    
+}
